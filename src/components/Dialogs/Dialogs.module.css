@@ -1,0 +1,28 @@
+.content{
+    background-color: gray;
+    grid-area: c;
+
+}
+.dialogs{
+display: grid;
+grid-template-columns: 2fr 10fr;
+padding-top: 10px;
+}
+.dialogsItem{
+padding: 10px;
+border-right: 1px solid;
+}
+.dialog.active{
+color: gold;
+}
+.masseges{
+    padding: 10px;
+
+}
+.massege{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+
+}
